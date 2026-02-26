@@ -7,29 +7,22 @@
     <title>CelebraSite</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <link rel="icon" type="image/png" href="imagens/icone-pagina.png">
+    <link rel="icon" type="image/Png" href="imagens/Png/IconeDaPagina.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div id="inicio"></div>
-    <div class="header-container">
-        <div id="overlay"></div>
-        <div class="logo-container" id="home-nome">
-            <img src="imagens/icone.png" alt="Logo do Site" class="logo-home">
-
-        </div>
-        <!--Criação de cabeçalho e inclução da logo-->
+        <!--Criação de cabeçalho-->
 
         <header>
             <div class="menu-hamburguer" onclick="abrirSidebar()">☰</div>
             <div class="nav-container">
                 <nav id="menu">
                     <a href="#" onclick="mostrarSecao('home')">HOME</a>
-                    <a href="#" onclick="mostrarSecao('historia')">NOSSA HISTÓRIA</a>
-                    <a href="#" onclick="mostrarSecao('padrinhos')">PADRINHOS</a>
-                    <a href="#" onclick="mostrarSecao('cerimonia')">CERIMÔNIA</a>
+                    <a href="#" onclick="mostrarSecao('sobre')">SOBRE MIM</a>
+                    <a href="#" onclick="mostrarSecao('local')">LOCAL</a>
                     <a href="#" onclick="mostrarSecao('presentes')">PRESENTE</a>
                     <a href="#" onclick="mostrarSecao('confirmacao')">CONFIRME SUA PRESENÇA</a>
                 </nav>
@@ -40,21 +33,20 @@
             <div id="sidebar" class="sidebar">
                 <a href="#" onclick="fecharSidebar()">✖</a>
                 <a href="#" onclick="mostrarSecao('home'); fecharSidebar()">HOME</a>
-                <a href="#" onclick="mostrarSecao('historia'); fecharSidebar()">NOSSA HISTÓRIA</a>
-                <a href="#" onclick="mostrarSecao('padrinhos'); fecharSidebar()">PADRINHOS</a>
-                <a href="#" onclick="mostrarSecao('cerimonia'); fecharSidebar()">CERIMÔNIA</a>
+                <a href="#" onclick="mostrarSecao('sobre'); fecharSidebar()">SOBRE MIM</a>
+                <a href="#" onclick="mostrarSecao('local'); fecharSidebar()">LOCAL</a>
                 <a href="#" onclick="mostrarSecao('presentes'); fecharSidebar()">PRESENTE</a>
                 <a href="#" onclick="mostrarSecao('confirmacao'); fecharSidebar()">CONFIRME SUA PRESENÇA</a>
             </div>
         </header>
-        <!--Container para  pagina home de apresentação-->
+        <!--Container para pagina home de apresentação-->
     </div>
     <!--Seção home -->
 
     <main>
         <section id="home" class="secao">
             <div class="home-container">
-                <img src="imagens/home-definitivo1.png" alt="Imagem Home" class="logohome">
+                <img src="imagens/Fotos/imagemHome.jpg" alt="Imagem Home" class="logohome">
             </div>
             <!-- contagem regressiva -->
             <div id="countdown" class="countdown">
@@ -68,11 +60,7 @@
             </div>
 
             <br>
-            <p>Criamos esse site para compartilhar com vocês principais informações sobre o casamento.
-                Estamos muito felizes e contamos com a presença de todos no nosso grande dia. Escolha seu melhor look,
-                se
-                você ainda não decidiu,
-                no seu convite tem o dress code ou <br> <a href="https://pin.it/2LHO0eccn" target="_blank"
+            <p>Venha curtir comigo esse dia especial, meus 17 anos. Teremos um dresscode especial: <br> <a href="" target="_blank"
                     style="text-decoration:none; font-weight:bold; color:#600018;">
                     clique aqui</a> para se inspirar.
             </p><br>
@@ -81,82 +69,46 @@
                 Para isto contamos com sua ajuda clicando no menu “Confirme sua Presença” e preenchendo os dados
                 necessários.</p><br>
 
-            <p> Para nos presentear, clique na seção presente escolha sua cota ou contribuição. Fiquem à vontade!.</p><br>
+            <p> Para presentear, clique na seção presente escolha sua cota ou contribuição. Fiquem à vontade!.</p><br>
 
-            <p> Aguardamos vocês no nosso grande dia!</p>
+            <p> Aguardo por vocês!</p>
 
-            <p><strong>Lucas e Janine</strong></p>
-            <img src="imagens/fotosCasal/casal-foto3.jpg" alt="Imagem Home" class="casalInicio"><br>
+            <p><strong>Clara Pereira</strong></p>
+            <img src="imagens/fotosCasal/casal-foto3.jpg" alt="MarcaD'aguaHome" class="Inicio"><br>
         </section>
-        <!--Seção historia do casal -->
-        <section id="historia" class="secao">
-            <h1>Nossa história</h1>
+        <!--Seção sobre do casal -->
+        <section id="sobre" class="secao">
+            <h1>Sobre mim</h1>
 
             <div class="foto-container">
-                <img src="imagens/fotosCasal/foto-casal2.jpg" alt="Foto 1" class="foto">
-                <img src="imagens/fotosCasal/casal-foto1.jpg" alt="Foto 1" class="foto">
-                <img src="imagens/fotosCasal/casal-foto3.jpg" alt="Foto 1" class="foto">
+                <img src="imagens/Fotos/imagem1.jpg" alt="Foto 1" class="foto">
+                <img src="imagens/Fotos/imagem2.png" alt="Foto 2" class="foto">
+                <img src="imagens/Fotos/imagem3.jpg" alt="Foto 3" class="foto">
             </div>
-            <p>Nos conhecemos na escola, no fundamental, dois adolescentes, um brincalhão que vivia implicando e outra
-                muito
-                boba para a idade. Através do grupo da escola lá em 2017,
-                que tudo iniciou com altos e baixos mas que permanece até então.</p><br>
-            <p>Compartilhamos risos, sonhos e momentos inesquecíveis. Superamos desafios, aprendemos juntos e criamos
-                memórias preciosas.
-                Agora, decidimos unir nossas vidas em matrimônio, celebrando o amor que nos une.</p><br>
-            <p> Embarcaremos juntos nessa nova jornada, afinal ser responsável por
-                uma família não é tarefa fácil, mas estamos prontos para enfrentar o futuro com coragem, devoção e amor.
+            <p>Clara celebra mais um ano de vida, 
+                irradiando a mesma alegria contagiante de sempre! Desde jovem, 
+                Clara demonstrou uma paixão por desafios e um coração gentil, 
+                características que a tornaram querida por todos ao seu redor. 
+                Seja em seus projetos pessoais ou no cuidado com seu amado 
+                cachorrinho, o fofo Floquinho, ela sempre se dedica com entusiasm
+                o e carinho. Hoje, ao lado de balões vibrantes e na companhia 
+                de seu fiel amigo de quatro patas, Clara celebra não apenas mais 
+                um ano, mas todas as conquistas e a pessoa incrível que se tornou.
+                 Que este novo ciclo seja repleto de ainda mais luz, amor e momentos
+                  inesquecíveis!
             </p>
 
         </section>
-
-        <!--Seção padrinhos-->
-        <section id="padrinhos" class="secao">
-            <h1>Padrinhos</h1>
-            <p>Aos nossos queridos padrinhos, é uma emoção única e indescritível tê-los ao nosso lado,
-                vocês que acompanharam de perto nosso crescimento e poder partilhar com vocês toda felicidade
-                dessa nova etapa em nossas vidas é um privilégio! Por isso, agradecemos o aceite de cada um em
-                ser testemunhas da nossa união.
-            </p>
-            <br>
-            <div class="padrinhos-container">
-
-                <div class="padrinhos-fotos">
-                    <img src="imagens/fotospadrinhos/Padrinhos1.jpg" alt="Danny e Danilo" class="foto">
-                    <p class="padrinhos-nome">Danny e Danilo</p>
-                </div>
-
-                <div class="padrinhos-fotos">
-                    <img src="imagens/fotospadrinhos/Padrinhos2.jpg" alt="Raquel e Fernando" class="foto">
-                    <p class="padrinhos-nome">Raquel e Fernando</p>
-                </div>
-
-                <div class="padrinhos-fotos">
-                    <img src="imagens/fotospadrinhos/Padrinhos3.jpg" alt="Cristoffer e Thais" class="foto">
-                    <p class="padrinhos-nome">Cristoffer e Thais</p>
-                </div>
-
-                <div class="padrinhos-fotos">
-                    <img src="imagens/fotospadrinhos/padrinho-carlos.jpg" alt="Carlos" class="foto">
-                    <p class="padrinhos-nome">Carlos</p>
-                </div>
-
-                <div class="padrinhos-fotos">
-                    <img src="imagens/fotospadrinhos/madrinha- luana.jpg" alt="Luana" class="foto">
-                    <p class="padrinhos-nome">Luana</p>
-                </div>
-            </div>
-
-        </section>
-        <!--Seção cerimônia-->
-        <section id="cerimonia" class="secao">
-            <h1>Cerimonia</h1>
+        
+        <!--Seção local-->
+        <section id="local" class="secao">
+            <h1>Local</h1>
 
             <div class="igreja-container">
-                <img src="imagens/igreja/Capela_Santo_Antônio.jpg" alt="Foto 1" class="igreja">
+                <img src="imagens/Fotos/localEvento.jpg" alt="Foto 1" class="igreja">
 
             </div><br>
-            <p>Acontecerá na Capela Santo Antônio, iniciará as 17h. <br>Endereço abaixo: </p><br>
+            <p>Espaço Boulevard das Flores, nº 1717 Bairro Jardim das Palmeiras <br>Endereço abaixo: </p><br>
 
             <div class="map-container">
                 <iframe class="maps"
@@ -170,39 +122,30 @@
 
         <!--Seção presentes-->
         <section id="presentes" class="secao">
-            <h1>Presente</h1>
-            <p>Pela graça de Deus, fomos presenteados com os principais presentes, somos muito gratos a todos!
-                Falta o álbum de fotos que vai guardar o registro do início da nossa família. <br>
-            <p>Fizemos um orçamento com
-                nossa fotógrafa e o álbum está de 680,00. Dividimos em cotas menores para ficar acessível.
-                Caso deseje nos presentear, basta escolher somente uma cota e copiar chave. Se ficar com duvidas, falar com a noiva clicando no link. </p>
-            <br>
-
-            <p>Se não puder presentear, não há problema, só sua presença e poder compartilhar esse momento especial com
-                cada um de vocês é um presente grande para nós! 🤍✨ </p><br>
+            <h1>Lista de presentes</h1>
+            
+            <p> Para presentear basta da check na lista do convite virtual e enviar ou realizar pagamento na chave pix.🤍✨ </p><br>
 
             <div class="presentes-container">
                 <article class="card-presentes">
-                    <img src="imagens/albumFotos/albumFotos3.jpg" alt="cota-album-de-fotos" class="presente">
-                    <h3><strong>Cota álbum de fotos (3 cotas restantes) </strong></h3>
+                    <img src="imagens/Fotos/presente1.jpg" alt="presente1" class="presente">
+                    <h3><strong>Kit maquiagem Mari</strong></h3>
                     <p class="valor">R$ 150,00 </p>
-                    <p>Chave pix: <br> CPF: <span id="chavePix">71356308406</span> <br>Lucas da Silva T. <br> Nubank</p>
-                    <button class="button" onclick="copiarPix()">Copiar chave</button><br>
-                    <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Tirar dúvidas</button>
+                    <button class="button" onclick="copiarPix()">Presentear</button><br>
+                    <button class="button" onclick="window.open(')">Tirar dúvidas</button>
                 </article>
             </div>
 
         </section>
-
         <!--Seção confirmação-->
         <section id="confirmacao" class="secao">
             <h1>Confirme sua presença!</h1>
             <p>Se você ainda não respondeu ao seu convite, confirme clicando no link sua
-                presença e auxilie os noivos a se programarem para o grande dia! Se desejar nos deixar um recado,
-                no formulário existe um campo para isso, prometemos ler todos.🤍
+                presença! Se desejar nos deixar um recado,
+                no formulário existe um campo para isso, prometo ler todos.🤍
             </p>
             <div class="presenca-container">
-                <a href="https://forms.gle/5cyg9V3AASXEtzM37" target="_blank" class="button2"
+                <a href="" target="_blank" class="button2"
                     style=" text-decoration: none;"> Confirmar presença!</a>
 
             </div>
