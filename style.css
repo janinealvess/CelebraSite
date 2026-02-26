@@ -1,0 +1,638 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+nav a:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #600018;
+    /* muda cor ao passar o mouse */
+    transform: scale(1.05);
+    /* aumenta levemente o botão */
+    transition: all 0.1s ease;
+    /* transição suave */
+    cursor: pointer;
+    /* mostra a mãozinha ao passar */
+}
+
+.button2:hover {
+    background-color: #600018;
+    /* muda cor ao passar o mouse */
+    transform: scale(1.05);
+    /* aumenta levemente o botão */
+    transition: all 0.1s ease;
+    /* transição suave */
+    cursor: pointer;
+    /* mostra a mãozinha ao passar */
+}
+
+
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    background-image: url('imagens/textura-papel-pexels.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 5px;
+}
+
+header {
+    background-color: #600018;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 50px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo-container {
+    margin-right: 5px;
+    padding: 1px 20px;
+}
+
+.logo, .logo-home {
+    height: 70px;
+    padding-top: 15px;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+    height: auto;
+    padding-top: 0px;
+}
+
+.logohome {
+    width: 900px;
+    height: auto;
+    padding-top: 0%;
+    padding: 20px;
+    width: 70%;
+}
+
+nav {
+    margin-top: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 5px 5px;
+
+
+}
+
+
+p {
+    text-align: center;
+    color: #4a0e13;
+    padding: 0px 200px;
+    margin: 0px auto;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    color: #600018;
+    text-align: center;
+    font-family: "Fleur De Leah", serif;
+    font-size: 3rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.foto-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(12, 1, 1, 0.938);
+    border: 1px solid #600018;
+}
+
+
+.padrinhos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 40px;
+}
+
+.padrinhos-fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+
+.padrinhos-nome {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #600018;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0;
+}
+
+.maps {
+    justify-content: center;
+    display: flex;
+    border: none;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.igreja-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.igreja {
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(12, 1, 1, 0.938);
+    border: 1px solid #600018;
+}
+
+.presentes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-presentes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 330px;
+    box-shadow: 0 4px 6px rgba(12, 1, 1, 0.938);
+    background-color: #d8d7d7;
+    border-radius: 20px;
+    padding: 0% 0% 10% 0%;
+
+}
+    .card-presentes p {
+    padding: 0;
+    margin: 5px 0;
+    }
+
+    .valor {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #600018;
+}
+
+.presente {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-top: 5%
+}
+
+#presentes h3 {
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 15px;
+    padding: 0px;
+    line-height: 10px;
+    color: #0d3105;
+    line-height: 1.0;
+}
+
+.button {
+    font-size: small;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 0;
+    padding: 5px 10px;
+    color: #f2f3f1;
+    background-color: rgb(51, 75, 33);
+    font-family: 'Montserrat';
+}
+
+.button2 {
+    font-size: small;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 15px;
+    color: #f2f3f1;
+    background-color: rgb(51, 75, 33);
+    font-family: 'Montserrat';
+    display: inline-block;
+    /*Torna o <a> com propriedade de botão*/
+}
+
+
+.valor {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #600018;
+    padding: 0;
+    font-weight: bold;
+}
+
+
+.presenca-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    text-align: center;
+
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.secao.mostrarTransicao {
+    opacity: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.flores {
+    width: 200px;
+    height: auto;
+}
+
+.casalInicio {
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+}
+
+/* Propriedades do menu hamburgyuer */
+.menu-hamburguer {
+
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+/* Esconder em telas mobile */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    /*abre da esquerda para direita*/
+
+}
+
+.menu-hamburguer {
+    display: none;
+    /* tornando o botão invisivel para desktop */
+}
+
+.sidebar {
+    display: none;
+}
+
+/* contagem regressiva */
+.countdown {
+    text-align: center;
+    color: #600018;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.countdown h1 {
+    font-family: "Fleur De Leah", serif;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Montserrat';
+}
+
+.timer div {
+    background-color: #fff5f5;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(96, 0, 24, 0.2);
+    text-align: center;
+}
+
+.timer span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #600018;
+}
+
+.timer small {
+    font-size: 0.8rem;
+    color: #4a0e13;
+}
+
+/* ---------------- RESPONSIVO ------------------- */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 0;
+        margin: 10px;
+        border-radius: 0;
+        background-color: transparent;
+
+    }
+
+    body {
+        background-attachment: scroll;
+    }
+    /* cabeçalho    */
+
+    .header-container {
+       position:absolute;
+    }
+
+    /* foto central */
+    .logohome {
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-hamburguer {
+        width: 45px;
+        height: 45px;
+        background-color: #600018;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        padding: 0;
+        margin: 10px;
+        position: absolute;
+        right: 10%;
+        top: 5%;
+    }
+
+    .nav-container nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 10px;
+        display: none;
+        position: fixed;
+    }
+
+
+
+    /* etsabelece o com0partamnero do nav quando estiver ativo */
+    .nav-container nav.ativo {
+        display: flex;
+    }
+
+    .casalInicio,
+    .igreja {
+        width: 50%;
+    }
+
+    p {
+        max-width: 80%;
+        margin: 2% auto;
+        padding: 0 5%;
+        font-size: 14px;
+        text-align: center;
+        line-height: 150%;
+    }
+
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .padrinhos-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        padding: 0 50px;
+        box-sizing: border-box;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .padrinhos-fotos img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .padrinhos-fotos {
+        width: 100%;
+    }
+
+    .foto-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .foto-container img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .map-container {
+        align-items: center;
+    }
+
+    .maps {
+        width: 500px;
+        height: 300px;
+        padding: 0px 30px 0px 30px;
+    }
+
+
+    .presentes-container {
+        display: flex;
+        justify-items: center;
+        width: 100%;
+        padding: 0 80px;
+        box-sizing: border-box;
+    }
+
+      .presentes-container h3{
+        margin: 5% ;
+    }
+    .card-presentes {
+        padding: 2px 0px 100px 0px;
+         margin: 5% ;
+    }
+
+    .card-presentes  p{
+        text-align:center;
+        padding:2px;
+    }
+    .presente{
+        width: 70%;
+        height: 40%;
+        padding-top: 5%;
+    }
+    .sidebar {
+        background-color: #600018;
+        height: 100vh;
+        right: -350px;
+        position: fixed;
+        top: 0;
+        flex-direction: column;
+        display: flex;
+        padding-top: 60px;
+        gap: 20px;
+        padding: 60px 20px;
+        width: 200px;
+        transition: right 0.4s ease;
+    }
+
+    .sidebar a {
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    /* Quando o sidebar estiver aberto */
+    .sidebar.ativo {
+        right: 0;
+        /* aparece na tela, deslizando da direita */
+        z-index: 10;
+    }
+
+    #sidebar a.active {
+        font-weight: bold;
+        color: #f8f8f8;
+        text-decoration: none;
+    }
+
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+        /* desfoca o fundo */
+        background-color: rgba(128, 128, 128, 0.3);
+        /* cinza com transparência */
+        z-index: 5;
+        /* abaixo do sidebar */
+        display: none;
+        /* começa escondido */
+    }
+
+    .flores {
+        width: 150px;
+    }
+
+    .button {
+        font-size: 11px;
+    }
+
+    #confirmacao {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    /* contagem regressiva*/
+
+    /* container */
+    .countdown {
+        padding: 0 20px;
+        
+    }
+    .countdown h1 {
+        font-size: 30px;
+    }
+    
+    /* objeto */
+    .timer {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 5px;
+        margin-left: 70px;
+        margin-right: 70px;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+
+}
