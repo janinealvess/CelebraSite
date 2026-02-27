@@ -50,14 +50,13 @@ body {
 }
 
 header {
-    background-color: #600018;
-    margin: 20px;
-    padding: 10px 20px;
+    background-color: #c8375b;
+    padding: 3%; 
+    margin-top: 0%;
     text-align: center;
-    border-radius: 50px;
     justify-content: space-between;
-    width: 100%;
-
+    width: auto;
+    height: auto;
 }
 
 .header-container {
@@ -77,7 +76,7 @@ header {
     height: 70px;
     padding-top: 15px;
 }
-
+/*Seção home*/
 .home-container {
     display: flex;
     justify-content: center;
@@ -86,13 +85,12 @@ header {
     height: auto;
     padding-top: 0px;
 }
-
+/*Imagem inicial*/
 .logohome {
-    width: 900px;
-    height: auto;
-    padding-top: 0%;
-    padding: 20px;
-    width: 70%;
+    width: 100%; /*LARGURA*/
+    height: 100%; /*ALTURA*/
+    margin: 0%;
+    padding: 0%;
 }
 
 nav {
