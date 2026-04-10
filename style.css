@@ -40,22 +40,17 @@ nav a:hover {
 
 body {
     font-family: "Montserrat";
-    margin: 0;
-    padding: 0;
-    background-image: url('imagens/textura-papel-pexels.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-top: 5px;
+    margin: 0%;
+    padding: 0%;
 }
 
 header {
     background-color: #c8375b;
     padding: 3%; 
-    margin-top: 0%;
+    margin-top: 0%; 
     text-align: center;
-    justify-content: space-between;
-    width: auto;
+    justify-content: space-between; 
+    width: auto; 
     height: auto;
 }
 
@@ -64,6 +59,7 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
+    
 
 }
 
@@ -92,23 +88,19 @@ header {
     margin: 0%;
     padding: 0%;
 }
-
+/* NAVBAR */
 nav {
-    margin-top: 0px;
-    display: flex;
     gap: 20px;
-    justify-content: space-evenly;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 100%;
 
+}
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0px;
-    padding: 5px 5px;
-
-
 }
-
 
 p {
     text-align: center;
