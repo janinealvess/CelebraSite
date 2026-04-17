@@ -43,63 +43,37 @@ body {
     margin: 0%;
     padding: 0%;
 }
-
+/* estrutura navbar */
 header {
     background-color: #c8375b;
     padding: 3%; 
     margin-top: 0%; 
+    margin-bottom: 0%;
     text-align: center;
     justify-content: space-between; 
-    width: auto; 
-    height: auto;
+    width: 100%; 
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    
 
-}
-
-.logo-container {
-    margin-right: 5px;
-    padding: 1px 20px;
-}
-
-.logo, .logo-home {
-    height: 70px;
-    padding-top: 15px;
-}
-/*Seção home*/
+/*Seção incial container home*/
 .home-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px 0;
-    height: auto;
-    padding-top: 0px;
 }
-/*Imagem inicial*/
-.logohome {
-    width: 100%; /*LARGURA*/
-    height: 100%; /*ALTURA*/
-    margin: 0%;
-    padding: 0%;
-}
+
 /* NAVBAR */
 nav {
-    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;   
     width: 100%;
-
 }
 nav a {
     color: white;
     text-decoration: none;
+    padding-right: 2%;
 }
 
 p {
@@ -289,7 +263,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
     padding-bottom: 5px;
     text-align: center;
 
@@ -407,8 +380,8 @@ footer {
        position:absolute;
     }
 
-    /* foto central */
-    .logohome {
+    /* foto inicial de garota com bolo */
+    .imagemHome {
         align-content: center;
         align-items: center;
         width: 100%;
