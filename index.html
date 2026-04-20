@@ -14,32 +14,32 @@
 
 <body>
     <div id="inicio"></div>
-        <!--Criação de cabeçalho-->
+    <!--Criação de cabeçalho-->
 
-        <header>
-            <div class="menu-hamburguer" onclick="abrirSidebar()">☰</div>
-            <div class="nav-container">
-                <nav id="menu">
-                    <a href="#" onclick="mostrarSecao('home')">HOME</a>
-                    <a href="#" onclick="mostrarSecao('sobre')">SOBRE MIM</a>
-                    <a href="#" onclick="mostrarSecao('local')">LOCAL</a>
-                    <a href="#" onclick="mostrarSecao('presentes')">PRESENTE</a>
-                    <a href="#" onclick="mostrarSecao('confirmacao')">CONFIRME SUA PRESENÇA</a>
-                </nav>
-            </div>
+    <header>
+        <div class="menu-hamburguer" onclick="abrirSidebar()">☰</div>
+        <div class="nav-container">
+            <nav id="menu">
+                <a href="#" onclick="mostrarSecao('home')">HOME</a>
+                <a href="#" onclick="mostrarSecao('sobre')">SOBRE MIM</a>
+                <a href="#" onclick="mostrarSecao('local')">LOCAL</a>
+                <a href="#" onclick="mostrarSecao('presentes')">PRESENTE</a>
+                <a href="#" onclick="mostrarSecao('confirmacao')">CONFIRME SUA PRESENÇA</a>
+            </nav>
+        </div>
 
 
-            <!-- Criação do sidebar -->
-            <div id="sidebar" class="sidebar">
-                <a href="#" onclick="fecharSidebar()">✖</a>
-                <a href="#" onclick="mostrarSecao('home'); fecharSidebar()">HOME</a>
-                <a href="#" onclick="mostrarSecao('sobre'); fecharSidebar()">SOBRE MIM</a>
-                <a href="#" onclick="mostrarSecao('local'); fecharSidebar()">LOCAL</a>
-                <a href="#" onclick="mostrarSecao('presentes'); fecharSidebar()">PRESENTE</a>
-                <a href="#" onclick="mostrarSecao('confirmacao'); fecharSidebar()">CONFIRME SUA PRESENÇA</a>
-            </div>
-        </header>
-        <!--Container para pagina home de apresentação-->
+        <!-- Criação do sidebar -->
+        <div id="sidebar" class="sidebar">
+            <a href="#" onclick="fecharSidebar()">✖</a>
+            <a href="#" onclick="mostrarSecao('home'); fecharSidebar()">HOME</a>
+            <a href="#" onclick="mostrarSecao('sobre'); fecharSidebar()">SOBRE MIM</a>
+            <a href="#" onclick="mostrarSecao('local'); fecharSidebar()">LOCAL</a>
+            <a href="#" onclick="mostrarSecao('presentes'); fecharSidebar()">PRESENTE</a>
+            <a href="#" onclick="mostrarSecao('confirmacao'); fecharSidebar()">CONFIRME SUA PRESENÇA</a>
+        </div>
+    </header>
+    <!--Container para pagina home de apresentação-->
     </div>
     <!--Seção home -->
 
@@ -48,9 +48,12 @@
             <div class="home-container">
                 <img src="imagens/Fotos/imagemHome.jpg" alt="Foto de garota com bolo de aniversario" class="imagemHome">
             </div>
+            <div class="barra"></div>
+
+
             <!-- contagem regressiva -->
             <div id="countdown" class="countdown">
-                <h1>Falta pouco para o grande dia!</h1>
+                <h1>Falta pouco para meu grande dia!</h1>
                 <div class="timer">
                     <div><span id="dias">00</span><small>dias</small></div>
                     <div><span id="horas">00</span><small>horas</small></div>
@@ -59,9 +62,11 @@
                 </div>
             </div>
 
+            
+
             <br>
-            <p>Venha curtir comigo esse dia especial, meus 17 anos. Teremos um dresscode especial: <br> <a href="" target="_blank"
-                    style="text-decoration:none; font-weight:bold; color:#600018;">
+            <p>Venha curtir comigo esse dia especial, meus 17 anos. Teremos um dresscode especial: <br> <a href=""
+                    target="_blank" style="text-decoration:none; font-weight:bold; color:#600018;">
                     clique aqui</a> para se inspirar.
             </p><br>
 
@@ -85,21 +90,21 @@
                 <img src="imagens/Fotos/imagem2.png" alt="Foto 2" class="foto">
                 <img src="imagens/Fotos/imagem3.jpg" alt="Foto 3" class="foto">
             </div>
-            <p>Clara celebra mais um ano de vida, 
-                irradiando a mesma alegria contagiante de sempre! Desde jovem, 
-                Clara demonstrou uma paixão por desafios e um coração gentil, 
-                características que a tornaram querida por todos ao seu redor. 
-                Seja em seus projetos pessoais ou no cuidado com seu amado 
+            <p>Clara celebra mais um ano de vida,
+                irradiando a mesma alegria contagiante de sempre! Desde jovem,
+                Clara demonstrou uma paixão por desafios e um coração gentil,
+                características que a tornaram querida por todos ao seu redor.
+                Seja em seus projetos pessoais ou no cuidado com seu amado
                 cachorrinho, o fofo Floquinho, ela sempre se dedica com entusiasm
-                o e carinho. Hoje, ao lado de balões vibrantes e na companhia 
-                de seu fiel amigo de quatro patas, Clara celebra não apenas mais 
+                o e carinho. Hoje, ao lado de balões vibrantes e na companhia
+                de seu fiel amigo de quatro patas, Clara celebra não apenas mais
                 um ano, mas todas as conquistas e a pessoa incrível que se tornou.
-                 Que este novo ciclo seja repleto de ainda mais luz, amor e momentos
-                  inesquecíveis!
+                Que este novo ciclo seja repleto de ainda mais luz, amor e momentos
+                inesquecíveis!
             </p>
 
         </section>
-        
+
         <!--Seção local-->
         <section id="local" class="secao">
             <h1>Local</h1>
@@ -123,8 +128,9 @@
         <!--Seção presentes-->
         <section id="presentes" class="secao">
             <h1>Lista de presentes</h1>
-            
-            <p> Para presentear basta da check na lista do convite virtual e enviar ou realizar pagamento na chave pix.🤍✨ </p><br>
+
+            <p> Para presentear basta da check na lista do convite virtual e enviar ou realizar pagamento na chave
+                pix.🤍✨ </p><br>
 
             <div class="presentes-container">
                 <article class="card-presentes">
@@ -145,8 +151,7 @@
                 no formulário existe um campo para isso, prometo ler todos.🤍
             </p>
             <div class="presenca-container">
-                <a href="" target="_blank" class="button2"
-                    style=" text-decoration: none;"> Confirmar presença!</a>
+                <a href="" target="_blank" class="button2" style=" text-decoration: none;"> Confirmar presença!</a>
 
             </div>
         </section>

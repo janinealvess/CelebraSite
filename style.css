@@ -43,17 +43,32 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
 /* estrutura navbar */
 header {
     background-color: #c8375b;
-    padding: 3%; 
-    margin-top: 0%; 
+    padding: 20px;
+    margin-top: 0%;
     margin-bottom: 0%;
     text-align: center;
-    justify-content: space-between; 
-    width: 100%; 
+    justify-content: space-between;
+    width: 100%;
 }
 
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 2%;
+}
 
 /*Seção incial container home*/
 .home-container {
@@ -62,18 +77,17 @@ header {
     align-items: center;
     margin: 0px 0;
 }
-
-/* NAVBAR */
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    width: 100%;
+.imagemHome{
+   width: 100%;
+   height: 480px;
+   object-fit: cover;
+   
 }
-nav a {
-    color: white;
-    text-decoration: none;
-    padding-right: 2%;
+
+.barra {
+    width: 100%;
+    height: 60px;
+    background-color: #c8375b;
 }
 
 p {
@@ -188,12 +202,13 @@ h1 {
     padding: 0% 0% 10% 0%;
 
 }
-    .card-presentes p {
+
+.card-presentes p {
     padding: 0;
     margin: 5px 0;
-    }
+}
 
-    .valor {
+.valor {
     margin-top: 8px;
     font-weight: bold;
     color: #600018;
@@ -374,10 +389,11 @@ footer {
     body {
         background-attachment: scroll;
     }
+
     /* cabeçalho    */
 
     .header-container {
-       position:absolute;
+        position: absolute;
     }
 
     /* foto inicial de garota com bolo */
@@ -490,23 +506,26 @@ footer {
         box-sizing: border-box;
     }
 
-      .presentes-container h3{
-        margin: 5% ;
-    }
-    .card-presentes {
-        padding: 2px 0px 100px 0px;
-         margin: 5% ;
+    .presentes-container h3 {
+        margin: 5%;
     }
 
-    .card-presentes  p{
-        text-align:center;
-        padding:2px;
+    .card-presentes {
+        padding: 2px 0px 100px 0px;
+        margin: 5%;
     }
-    .presente{
+
+    .card-presentes p {
+        text-align: center;
+        padding: 2px;
+    }
+
+    .presente {
         width: 70%;
         height: 40%;
         padding-top: 5%;
     }
+
     .sidebar {
         background-color: #600018;
         height: 100vh;
@@ -579,12 +598,13 @@ footer {
     /* container */
     .countdown {
         padding: 0 20px;
-        
+
     }
+
     .countdown h1 {
         font-size: 30px;
     }
-    
+
     /* objeto */
     .timer {
         display: flex;
